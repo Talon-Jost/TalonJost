@@ -1,2 +1,2 @@
 # TalonJost
-Personal Github website
+Personal Github website to document my work and upload milestones.
