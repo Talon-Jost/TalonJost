@@ -7,7 +7,7 @@ url: "https://Talon-Jost.github.io" # replace USERNAME
 
 theme: null # if using remote_theme
 
-remote_theme: mmistakes/minimal-mistakes@main
+remote_theme: mmistakes/minimal-mistakes@master
 plugins:
   - jekyll-remote-theme
 
