@@ -2,7 +2,7 @@
 layout: single
 title: ""
 header:
-  overlay_image: /assets/images/landing.jpg
+  overlay_image: /assets/images/landing.jpeg
   overlay_filter: 0.5
   overlay_color: "#000"
   caption: "Talon Jost"
