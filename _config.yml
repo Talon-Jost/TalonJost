@@ -4,7 +4,7 @@
 title: Talon Jost
 description: "Researcher, Builder, Photographer, Writer"
 url: "https://talon-jost.github.io"   # update if using a custom domain
-baseurl: ""                           # leave empty for user site
+baseurl: "/TalonJost"                           # leave empty for user site
 repository: Talon-Jost/TalonJost
 
 # -----------------------------
