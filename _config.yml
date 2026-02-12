@@ -1,1 +1,38 @@
-theme: jekyll-theme-tactile
+# SITE META
+title: Microbial Ecology with a Systems Lens
+description: "My Website :)"
+
+baseurl: "" # leave empty for GitHub Pages
+url: "https://Talon-Jost.github.io" # replace USERNAME
+
+theme: null # if using remote_theme
+
+remote_theme: mmistakes/minimal-mistakes@main
+plugins:
+  - jekyll-remote-theme
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+header_pages:
+  - index.md
+
+# Minimal Mistakes options
+minimal_mistakes_skin: "default"
+
+# Navigation bar
+main:
+  - title: "Research"
+    url: /research/
+  - title: "Projects"
+    url: /projects/
+  - title: "Photos"
+    url: /photos/
+  - title: "Blog"
+    url: /blog/
+
+# Required for nav to work
+header:
+  nav: main
