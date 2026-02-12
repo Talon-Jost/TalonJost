@@ -20,7 +20,7 @@ plugins:
 # -----------------------------
 # Minimal Mistakes Settings
 # -----------------------------
-minimal_mistakes_skin: "default"
+minimal_mistakes_skin: "air"
 
 # -----------------------------
 # Navigation
