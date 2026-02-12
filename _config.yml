@@ -3,8 +3,8 @@
 # -----------------------------
 title: Talon Jost
 description: "Researcher, Builder, Photographer, Writer"
-url: "https://talon-jost.github.io"   # update if you use custom domain
-baseurl: ""                           # leave empty for GitHub Pages user site
+url: "https://talon-jost.github.io"   # update if using a custom domain
+baseurl: ""                           # leave empty for user site
 repository: Talon-Jost/TalonJost
 
 # -----------------------------
@@ -22,7 +22,7 @@ plugins:
 minimal_mistakes_skin: "air"  # "air" is clean, "contrast" is sharp
 
 # -----------------------------
-# Header Navigation (optional)
+# Header Navigation
 # -----------------------------
 header:
   nav:
