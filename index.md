@@ -1,24 +1,46 @@
 ---
 layout: splash
-title: "Talon Jost"
-excerpt: "Research • Projects • Photography • Writing"
+title: ""
 header:
+  overlay_image: /assets/images/landing.jpg
+  overlay_filter: 0.4
   overlay_color: "#000"
-  overlay_filter: "0.5"
-  overlay_image: https://images.unsplash.com/photo-1500530855697-b586d89ba3ee
-actions:
-  - label: "Research"
-    url: /research/
-  - label: "Projects"
-    url: /projects/
-  - label: "Photos"
-    url: /photos/
-  - label: "Blog"
-    url: /blog/
+  caption: "Talon Jost"
+intro:
+  - excerpt: "Research • Projects • Photography • Writing"
+
+feature_row:
+  - image_path: /assets/images/research.jpg
+    alt: "Research"
+    title: "Research"
+    excerpt: "Explore my academic and technical work."
+    url: "/research/"
+    btn_label: "View Research"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/projects.jpg
+    alt: "Projects"
+    title: "Projects"
+    excerpt: "Things I've built and experiments I've run."
+    url: "/projects/"
+    btn_label: "View Projects"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/photos.jpg
+    alt: "Photos"
+    title: "Photography"
+    excerpt: "Visual storytelling and travel."
+    url: "/photos/"
+    btn_label: "View Photos"
+    btn_class: "btn--primary"
+
+  - image_path: /assets/images/blog.jpg
+    alt: "Blog"
+    title: "Blog"
+    excerpt: "Thoughts, ideas, and writing."
+    url: "/blog/"
+    btn_label: "Read Blog"
+    btn_class: "btn--primary"
 ---
 
-Welcome to my website.
-
-I’m interested in research, building projects, visual storytelling, and writing about ideas.
-
-Use the sections above to explore my work.
+{% include feature_row %}
