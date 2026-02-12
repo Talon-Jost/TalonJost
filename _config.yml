@@ -1,38 +1,74 @@
-# SITE META
-title: Microbial Ecology with a Systems Lens
-description: "My Website :)"
+# -----------------------------
+# Site Settings
+# -----------------------------
+title: Talon Jost
+description: "Welcome to my personal website"
+url: "https://talon-jost.github.io"   # change if using custom domain
+baseurl: ""                           # leave empty for GitHub Pages user site
 
-baseurl: "" # leave empty for GitHub Pages
-url: "https://Talon-Jost.github.io" # replace USERNAME
+repository: Talon-Jost/TalonJost
 
-theme: null # if using remote_theme
+# -----------------------------
+# Theme
+# -----------------------------
+remote_theme: mmistakes/minimal-mistakes@4.24.0
 
-remote_theme: mmistakes/minimal-mistakes@master
 plugins:
   - jekyll-remote-theme
+  - jekyll-include-cache
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-
-# Navigation
-header_pages:
-  - index.md
-
-# Minimal Mistakes options
+# -----------------------------
+# Minimal Mistakes Settings
+# -----------------------------
 minimal_mistakes_skin: "default"
 
-# Navigation bar
-main:
-  - title: "Research"
-    url: /research/
-  - title: "Projects"
-    url: /projects/
-  - title: "Photos"
-    url: /photos/
-  - title: "Blog"
-    url: /blog/
-
-# Required for nav to work
+# -----------------------------
+# Navigation
+# -----------------------------
 header:
-  nav: main
+  nav:
+    - title: "Research"
+      url: /research/
+    - title: "Projects"
+      url: /projects/
+    - title: "Photos"
+      url: /photos/
+    - title: "Blog"
+      url: /blog/
+
+# -----------------------------
+# Author (optional sidebar info)
+# -----------------------------
+author:
+  name: Talon Jost
+  bio: "Researcher | Builder | Explorer"
+  location: ""
+  links:
+    - label: GitHub
+      icon: fab fa-github
+      url: https://github.com/Talon-Jost
+
+# -----------------------------
+# Build Settings
+# -----------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+paginate: 5
+paginate_path: /page:num/
+
+# Required for blog pagination
+collections:
+  posts:
+    output: true
+
+# -----------------------------
+# Exclude from Build
+# -----------------------------
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
