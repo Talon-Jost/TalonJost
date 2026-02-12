@@ -2,10 +2,9 @@
 # Site Settings
 # -----------------------------
 title: Talon Jost
-description: "Welcome to my personal website"
-url: "https://talon-jost.github.io"   # change if using custom domain
+description: "Researcher, Builder, Photographer, Writer"
+url: "https://talon-jost.github.io"   # update if you use custom domain
 baseurl: ""                           # leave empty for GitHub Pages user site
-
 repository: Talon-Jost/TalonJost
 
 # -----------------------------
@@ -18,12 +17,12 @@ plugins:
   - jekyll-include-cache
 
 # -----------------------------
-# Minimal Mistakes Settings
+# Minimal Mistakes Skin
 # -----------------------------
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "air"  # "air" is clean, "contrast" is sharp
 
 # -----------------------------
-# Navigation
+# Header Navigation (optional)
 # -----------------------------
 header:
   nav:
@@ -37,12 +36,11 @@ header:
       url: /blog/
 
 # -----------------------------
-# Author (optional sidebar info)
+# Author info (optional sidebar)
 # -----------------------------
 author:
   name: Talon Jost
   bio: "Researcher | Builder | Explorer"
-  location: ""
   links:
     - label: GitHub
       icon: fab fa-github
@@ -58,10 +56,21 @@ permalink: /:categories/:title/
 paginate: 5
 paginate_path: /page:num/
 
-# Required for blog pagination
 collections:
   posts:
     output: true
+
+# -----------------------------
+# Defaults for Pages
+# -----------------------------
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      header:
+        overlay_filter: 0.5   # dark overlay for readability
+        overlay_color: "#000"
 
 # -----------------------------
 # Exclude from Build
