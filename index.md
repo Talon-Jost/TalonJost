@@ -18,6 +18,8 @@ header:
       btn_class: "btn--primary"
     - label: "Blog"
       url: "/blog/"
+    - label: "CV"
+      url: "/CV/"
       btn_class: "btn--primary"
 excerpt: "Researcher, builder, and visual storyteller."
 ---
